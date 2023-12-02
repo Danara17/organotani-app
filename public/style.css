@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: OpenSans;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("font/OpenSans-Regular.ttf");
+}
+
+.primary {
+    background-color: #4d4c7d;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.nav-link {
+    border-radius: 5px;
+    margin: 0 7px;
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: #36d849;
+    color: white;
+}
+
+.btn-outline-success {
+    border: 2px solid white;
+    color: white;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:active,
+.btn-outline-success:focus {
+    background-color: #36d849 !important;
+    border: 2px solid white !important;
+}
+
+.h-mid {
+    height: calc(100vh - 56px) !important;
+}
+
+.p1 {
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: start;
+}
+
+.p2 {
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: start;
+    font-weight: 700;
+}
+
+.p3 {
+    font-size: 12px;
+}
+
+.button-started-landing {
+    padding: 10px 20px;
+    background-color: #4d4c7d;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.button-started-landing:hover {
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-outline-success-2 {
+    border: 1px solid #4d4c7d;
+    color: #4d4c7d;
+}
+
+.btn-outline-success-2:hover,
+.btn-outline-success-2:focus {
+    color: white;
+
+    background-color: rgb(73, 72, 119);
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:not(:focus) {
+    outline: none !important;
+}
+
+.button-buy {
+    background-color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 4px 14px;
+    border: 2px solid #4d4c7d;
+    border-radius: 5px;
+    color: #4d4c7d;
+    transition: 0.3s ease;
+}
+
+.button-buy:hover {
+    background-color: #57568e;
+    color: white;
+}
+
+.harga-buy {
+    font-size: 22px;
+    color: lightslategrey;
+}
+
+.namebox {
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+}
+
+.user-btn {
+    background-color: transparent;
+    border: 0;
+    border-radius: 5px;
+    padding: 3px;
+    width: 100%;
+    transition: ease 0.3s;
+}
+
+.user-btn:hover {
+    background-color: #58578e;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.btn-logout {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 2px 10px;
+    padding: 5px 6px;
+    text-decoration: none;
+    color: #df2e38;
+    background-color: transparent;
+    border: 2px solid #df2e38;
+    border-radius: 5px;
+    transition: ease 0.3s;
+}
+
+.btn-logout:hover {
+    color: white;
+    background-color: #df2e38;
+}
+
+.sos {
+    display: flex;
+    /* Width dari footer sosmed ganti disini */
+    width: 100px;
+}
+.sos a {
+    margin: auto;
+    font-size: 25px;
+    /* color: white; */
+}
+
+.sos a:first-child {
+    margin-left: 0;
+}
+
+.sos a:last-child {
+    margin-right: 0;
+}
+
+.footer-link-prim {
+    color: #f8f8ff;
+}
+
+.footer-link-prim:hover {
+    color: #dcdce4;
+}
+
+.input-primary {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 2px solid #dee2e6;
+    transition: ease 0.3s;
+}
+
+.input-primary:focus {
+    border-bottom: 2px solid #4d4c7d;
+    outline: none; /* Menambahkan shadow di luar border saat elemen mendapatkan fokus */
+}
+
+.select-primary {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 2px solid #dee2e6;
+    transition: ease 0.3s;
+}
+
+.select-primary:focus,
+.select-primary:active {
+    border-bottom: 2px solid #4d4c7d;
+    outline: none; /* Menambahkan shadow di luar border saat elemen mendapatkan fokus */
+}
+
+/* Ganti warna latar belakang saat mouse hover */
+.select-primary option:hover {
+    background-color: pink;
+}
+
+/* Menghilangkan border dan border-radius pada opsi */
+.select-primary option {
+    border: none;
+    border-radius: 0; /* Menghilangkan border radius */
+}
+
+.button-buy-static {
+    background-color: #4d4c7d;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 4px 14px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.button-buy-static:hover {
+    background-color: #5f5e9c;
+}
+
+/* Media query ketika lebar layar kurang dari 576px (XS, ekstra kecil) */
+@media (max-width: 575.98px) {
+    /* Tambahkan aturan CSS untuk tampilan XS di sini */
+    .btn-outline-success {
+        width: 100%;
+    }
+
+    .img-container {
+        display: none;
+    }
+}
+
+/* Media query ketika lebar layar antara 576px dan 767.98px (SM, kecil) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Tambahkan aturan CSS untuk tampilan SM di sini */
+    .btn-outline-success {
+        width: 100%;
+    }
+}
+
+/* Media query ketika lebar layar antara 768px dan 991.98px (MD, sedang) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Tambahkan aturan CSS untuk tampilan MD di sini */
+    .btn-outline-success {
+        width: 100%;
+    }
+
+    .p1,
+    .p2 {
+        font-size: 35px;
+    }
+
+    .p3 {
+        font-size: 17px;
+    }
+}
+
+/* Media query ketika lebar layar antara 992px dan 1199.98px (LG, besar) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Tambahkan aturan CSS untuk tampilan LG di sini */
+    .p1,
+    .p2 {
+        font-size: 35px;
+    }
+
+    .p3 {
+        font-size: 17px;
+    }
+}
+
+/* Media query ketika lebar layar sama atau lebih besar dari 1200px (XL, ekstra besar) */
+@media (min-width: 1200px) {
+    /* Tambahkan aturan CSS untuk tampilan XL di sini */
+    .p1,
+    .p2 {
+        font-size: 35px;
+    }
+
+    .p3 {
+        font-size: 17px;
+    }
+}
